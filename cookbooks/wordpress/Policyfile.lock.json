@@ -1,0 +1,52 @@
+{
+  "revision_id": "dc4aa78975d09d22bc697debe528fd54e9516e607313655938331bc26f95ad4a",
+  "name": "wordpress",
+  "run_list": [
+    "recipe[wordpress::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "wordpress": {
+      "version": "0.1.0",
+      "identifier": "5cd9c2b8068757f4369e2c902aff85a911a613e1",
+      "dotted_decimal_identifier": "26135128191698775.68739947297778431.146961192063969",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "https://github.com/OscarJimenezFlores/Chef_Vagrant_Wp.git",
+        "revision": "24415d4d9b7931832cdfee40df60950bfc1e6033",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/HEAD -> origin/main",
+          "origin/main"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "wordpress",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "wordpress (0.1.0)": [
+
+      ]
+    }
+  }
+}
